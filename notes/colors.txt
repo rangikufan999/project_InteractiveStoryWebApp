@@ -1,0 +1,9 @@
+Rich Black: #040F0B
+Forest Green: #2D8224
+Wageningen Green: #2BA82B
+Gunmetal: #2D3A37
+White: #FCFFFD
+
+(Not sure which colors should go where, Green might be menu colors, while black and gunmetal server as borders, dropshadows, etc. White would be good for text.)
+
+(Gunmetal could also be used to darken the main story play area.)

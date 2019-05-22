@@ -1,0 +1,55 @@
+Project Overview
+	-This project is intended to serve as way to create, share, play, and enjoy interactive stories. In its prototype phase, the project should be able to allow a user to create a story with a built in editor, play that said story, and save the story both with localStorage and through a download saveFile feature (The Download feature being incredibly difficult to implement.)
+
+
+Tasks to Accomplish
+	-Build the Site Layout
+		This consists of building all relevant pages that the site will require:
+			1.) Main Landing Page
+			2.) Create Story Page
+				-This is where the editor will reside.
+			3.) Search Stories Page
+				-This is where a user will be able to search for stories in a database (Future Feature)
+			4.) Play Stories Page
+				-This is the meat where everything happens, you play interactive stories on this page.
+			5.) Sign Up Page (FF)
+				-Once the client side has been established the sign up page will be where users can create an account.
+			6.) Login Page (FF)
+				-When a user with an account wishes to login they will be directed to here, or this could be a widget where users can enter their info upon clicking the login button to open said widget up.
+			7.) Contact Page and Social Media (FF)
+				-This is not an immediately needed page but one that might be needed if the project gains traction and is put here for complete reference.
+	-Build the Editor
+		The editor is something of an enigma. Until this one can be solved stories will just manually be drafted into the site. 
+
+		The general premise is that the editor will allow one to manipulate a gui to auto generate the story into a working interactive and playable story to run in the play component.
+		
+	-Build the Story Play Component
+		The page where stories are built has the interactie story play component. Which requires the following things be accomplished: 
+			1.) Main Action Window
+				-This is where backgrounds and actors (may not be needed if going completely text based but background will still be needed)
+			2.) Dialogue Window
+				-Where all text pertaining to the story will be displayed at.
+				-Should be styled in a way that makes different types of text distinguishable for better readability. For example, Inner Monologue could have a red or green text color while Speech could have an amber color with quotes wrapping around it.
+				-Navigation buttons or dialogue history window for remembering what was said.
+				-Save Story Button for saving locatin in story
+			3.) Action Window
+				-This window has applicable buttons placed here according to what might be doable in a certain situation. This is the most complex part because interactive stories can provide an almost never ending supply of actions that might be carried out.
+	-Build the Search Story Structure
+		This will happen when enough stories have been created and added to the database which will initially be story files owned by the server but will shift over to a database when easily manageable to do. (AKA I need to learn that stuff).
+
+		Main pont of this component is to allow search of stories based on a tag system. (Much like those used on booru image sites to organize images into easiyly searchable categories.)
+
+			1.) Implement Tag System to search for stories
+			2.) Connect stories to client side first.
+			3.) Create structure for implementation of Database system
+			4.) Test and connect client systems on Database and server.
+
+	-Build Login/Signup/User system
+		This system will come when most of the basic functionality of the site is complete including the editor.
+
+			1.) Establishing a signup component to properly make new accounts.
+			2.) Make signup secure using encryption.
+			3.) Work on login component and making sure authentication works and is secure.
+			4.) Make sure logout works and is secure
+			5.) Make sure that functionality of site works the individual user once logged in.
+			6.) Clean Up Bugs
